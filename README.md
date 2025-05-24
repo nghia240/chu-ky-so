@@ -59,9 +59,4 @@ thông qua mạng với khả năng ký số và xác thực file.
 1. Khởi động ứng dụng:
    ```
    python file_transfer.py
-   ```
-## Bảo mật:
-- Sử dụng RSA 2048-bit cho ký số
-- PSS padding với SHA-256
-- Trao đổi khóa công khai an toàn
-- Xác thực tính toàn vẹn file
+

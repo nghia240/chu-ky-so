@@ -1,30 +1,30 @@
 ##
 Ứng dụng Truyền File với Ký Số
-##
-Mô tả:
+
+## Mô tả:
 Đây là một ứng dụng desktop được xây dựng bằng Python cho phép truyền file an toàn giữa hai máy tính 
 thông qua mạng với khả năng ký số và xác thực file.
-##
-Tính năng chính:
+
+## Tính năng chính:
 1. Truyền file:
    - Gửi và nhận file giữa hai máy tính
    - Hỗ trợ mọi loại file (không giới hạn kích thước)
    - Hiển thị tiến trình truyền file
    - Tự động xử lý lỗi kết nối
-##
-2. Bảo mật:
+
+## 2. Bảo mật:
    - Sử dụng RSA 2048-bit cho ký số
    - Tự động tạo cặp khóa khi khởi động
    - Trao đổi khóa công khai an toàn
    - Xác thực tính toàn vẹn file thông qua chữ ký số
-##
-3. Giao diện:
+
+## 3. Giao diện:
    - Thiết kế trực quan, dễ sử dụng
    - Hiển thị log chi tiết về mọi hoạt động
    - Hỗ trợ chọn file qua dialog
    - Hiển thị trạng thái kết nối
-##
-Cách sử dụng:
+
+## Cách sử dụng:
 1. Khởi động ứng dụng
 2. Chọn vai trò:
    - Server: Nhấn "Tạo Server" và chọn port
@@ -36,8 +36,8 @@ Cách sử dụng:
    - Nhấn "Nhận File"
    - Chọn vị trí lưu file
    - Ứng dụng sẽ tự động xác thực chữ ký
-##
-Yêu cầu hệ thống:
+
+## Yêu cầu hệ thống:
 - Python 3.x
 - Thư viện:
   + cryptography (mã hóa và ký số)
@@ -60,7 +60,7 @@ Yêu cầu hệ thống:
    ```
    python file_transfer.py
    ```
-Bảo mật:
+## Bảo mật:
 - Sử dụng RSA 2048-bit cho ký số
 - PSS padding với SHA-256
 - Trao đổi khóa công khai an toàn

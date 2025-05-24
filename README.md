@@ -15,5 +15,5 @@ Tính năng chính:
 ##
 Yêu cầu:
 - Python 3.x
-- Thư viện: tkinter, cryptography
+- Thư viện: cryptography
 """

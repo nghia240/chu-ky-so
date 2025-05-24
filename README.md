@@ -42,7 +42,24 @@ Yêu cầu hệ thống:
 - Thư viện:
   + cryptography (mã hóa và ký số)
   + socket (kết nối mạng)
+## Cài đặt
+1. Clone repository này về máy local của bạn
+2. Tạo môi trường ảo Python (khuyến nghị):
+   ```
+   python -m venv venv
+   source venv/bin/activate  # Linux/Mac
+   venv\Scripts\activate     # Windows
+   ```
+3. Cài đặt các thư viện cần thiết:
+   ```
+   pip install -r requirements.txt
+   ```
 
+## Sử dụng
+1. Khởi động ứng dụng:
+   ```
+   python file_transfer.py
+   ```
 Bảo mật:
 - Sử dụng RSA 2048-bit cho ký số
 - PSS padding với SHA-256
